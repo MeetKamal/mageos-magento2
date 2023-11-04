@@ -10,5 +10,4 @@ permissions:
 
 jobs:
   run-unit-tests:
-    uses: mod-unit-tests.yml
-
+    uses: .github/workflows/mod-unit-test.yml
